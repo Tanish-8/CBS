@@ -1,0 +1,120 @@
+# ==============================================================================
+# Clinical Belief State (CBS) - Git Ignore Configuration
+# Phase-0 Baseline
+# ==============================================================================
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Bytecode and Compilation Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Coverage Caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Secrets, Environment Variables, and Authentication Tokens
+.env
+.env.*
+*.env
+secrets/
+secrets.*
+*.pem
+*.key
+*.token
+*.cert
+*.crt
+id_rsa
+id_ecdsa
+id_ed25519
+wandb/
+
+# Model Checkpoints, Pretrained Weights, and Serialized Graphs
+checkpoints/
+weights/
+saved_models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+*.engine
+*.tflite
+
+# Datasets, Raw Imaging, DICOM Archives, and Large Data Stores
+data/
+datasets/
+raw_data/
+mimic/
+mimic-cxr/
+mimic-iv/
+openi/
+*.dcm
+*.dicom
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.gz
+*.bz2
+*.xz
+*.h5
+*.hdf5
+*.parquet
+*.arrow
+
+# Large Generated Artifacts, Logs, and Experiment Outputs
+logs/
+runs/
+outputs/
+output/
+experiments/
+tb_logs/
+*.log
+
+# IDE, OS, and Local Workspace Configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*~
